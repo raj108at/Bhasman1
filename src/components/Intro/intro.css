@@ -1,0 +1,14 @@
+.lb_intro_wrap {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+  .lb_intro_wrap {
+    padding-top: 10px; 
+    padding-bottom: 20px;   
+  }
+  .btn{
+    margin-bottom: 20px;
+  }
+}

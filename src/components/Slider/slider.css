@@ -1,0 +1,17 @@
+.lb_banner_img {
+  min-height: 100vh;
+}
+
+.raj_slider{
+  height: 600px;
+}
+
+.carousel .thumb img {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.carousel .slide img {
+  height: 370px!important;  /* change this to whatever you want */
+  width: 100%;
+}
