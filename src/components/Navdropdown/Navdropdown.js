@@ -20,7 +20,7 @@ export default function Navdropdown() {
           className="menu-trigger z-depth-0 transparent"
         >
           <span className="white-text">Products</span>
-        </button>
+        </button> 
         <nav
           ref={dropdownRef}
           className={`menu ${isActive ? "active" : "inactive"}`}
@@ -66,6 +66,36 @@ export default function Navdropdown() {
             <li className="left">
               <Link to="/HydraulicAttachment" onClick={onClick} className="left" href="#">
                 Hydraulic Attachments
+              </Link>
+            </li>
+            <li className="left">
+              <Link to="/DrumCutter" onClick={onClick} className="left" href="#">
+              Drum Cutter
+              </Link>
+            </li>
+            <li className="left">
+              <Link to="/EarthAuger" onClick={onClick} className="left" href="#">
+              Earth Auger
+              </Link>
+            </li>            
+            <li className="left">
+              <Link to="/LongBoomAndArm" onClick={onClick} className="left" href="#">
+              Long Boom and Arm
+              </Link>
+            </li>
+            <li className="left">
+              <Link to="/PileBreaker" onClick={onClick} className="left" href="#">
+              Pile Breaker
+              </Link>
+            </li>
+            <li className="left">
+              <Link to="/PileDriver" onClick={onClick} className="left" href="#">
+              Pile Driver
+              </Link>
+            </li>
+            <li className="left">
+              <Link to="/ScrapMagnet" onClick={onClick} className="left" href="#">
+              Scrap Magnet
               </Link>
             </li>
           </ul>

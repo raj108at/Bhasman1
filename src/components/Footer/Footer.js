@@ -42,7 +42,7 @@ function Footer() {
 
               <ul>
                 <li>
-                  <a class="grey-text text-lighten-3" href="#!">
+                  <a class="grey-text text-lighten-3" href="/HydraulicBreaker">
                     Hydraulic Rock Breaker
                   </a>
                 </li>

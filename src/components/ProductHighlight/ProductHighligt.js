@@ -15,7 +15,7 @@ function ProductHighligt() {
       />
       <Heading style="center" title="OUR MAIN PRODUCT" />
 
-      <div className="container">
+      {/* <div className="container">
         <div className="row">
           {ProductCategory.map((catergory) => {
             return (
@@ -27,7 +27,7 @@ function ProductHighligt() {
             );
           })}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

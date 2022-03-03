@@ -52,7 +52,7 @@ body {
   top: 60px;
   right: -150px;
   width: 250px;
-  height: 50vh;
+  height: 100vh;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
   opacity: 0;
   visibility: hidden;
@@ -68,7 +68,7 @@ body {
     top: 65px;
     right: 0px;
     width: 250px;
-    height: 20vh;
+    height: 90vh;
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
     opacity: 0;
     visibility: hidden;
